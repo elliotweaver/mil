@@ -80,6 +80,7 @@ body {
 /* Who We Are */
 .page-who {
   background: #ffffff;
+  padding-bottom: 70px;
 }
 .page-who .c1 {
   background: #cad8e3;
@@ -90,11 +91,20 @@ body {
 .page-who h1 {
   color: #51aca7;
   text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .page-who p {
   color: #747474;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Who */
+.page-what {
+  background: #071a1e;
 }
 
 /* Quotes */
@@ -112,42 +122,63 @@ body {
   border-bottom: 1px dotted #fff;
   height: 5px;
 }
+.page-quotes .quote {
+  padding-bottom: 20px;
+}
 .page-quotes .quote h1 {
   color: #fff;
   text-align: center;
   font-style: italic;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .page-quotes .quote p {
   color: #093939;
-  font-size: 16px;
   text-align: center;
+  font-size: 22px;
+  line-height: 22px;
 }
 .page-quotes .quote span {
   color: #fff;
-  font-size: 17px;
+  font-size: 22px;
   text-align: center;
   display: block;
 }
 .page-quotes .quotes {
-  margin-bottom: 40px;
+  padding: 30px 0;
+}
+.page-quotes .quotes .q {
+  margin-bottom: 30px;
 }
 .page-quotes .quotes p {
   background: #223e4c;
   color: #fff;
-  padding: 15px 20px;
-  font-size: 16px;
+  padding: 30px 30px;
+  font-size: 18px;
+  line-height: 24px;
   min-height: 200px;
+  margin-bottom: 0;
 }
 .page-quotes .quotes span {
   font-size: 17px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   display: block;
+}
+.page-quotes .quotes .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #223e4c;
+  margin-left: 20px;
 }
 
 /* Contact */
 .page-contact {
   background: #fff;
+  padding-bottom: 50px;
 }
 .page-contact .c1 {
   background: #cad8e3;
@@ -158,17 +189,21 @@ body {
 .page-contact h1 {
   color: #51aca7;
   text-align: center;
+  margin: 50px 0;
 }
 .page-contact p {
   color: #747474;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 22px;
+  line-height: 30px;
 }
 .page-contact a {
   color: #43b8b2;
 }
 .page-contact a:hover {
   color: #36827e;
+}
+.page-contact img {
+  margin-bottom: 30px;
 }
 
 /* Footer */
@@ -177,6 +212,7 @@ body {
   min-height: 100px;
   color: #808080;
   text-align: center;
+  font-size: 18px;
 }
 .page-footer p {
   margin: 0;
@@ -196,6 +232,9 @@ body {
   }
   .navbar-nav>li>a {
     color: #2a4654;
+  }
+  .navbar img {
+    width: 250px;
   }
 }
 
