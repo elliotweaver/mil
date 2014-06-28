@@ -75,6 +75,41 @@ body {
   background: #223e4c;
   color: #FFF;
   margin-bottom: 0;
+  padding: 120px 0;
+}
+.page-hero h1 {
+  font-size: 45px;
+}
+.page-hero h2 {
+  font-size: 32px;
+  color: #6bbdb9;
+  margin-top: 10px;
+}
+.page-hero hr {
+  border-top: 1px solid #607382;
+  margin: 40px 0;
+}
+.page-hero a.get-in-touch {
+  background: #d1564e;
+  background-image: none;
+  border: medium none;
+  padding: 12px 25px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.page-hero a.get-in-touch:hover {
+  background: #ee7f77;
+}
+.page-hero a.who-we-are {
+  background: #44768f;
+  background-image: none;
+  border: medium none;
+  padding: 12px 25px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.page-hero a.who-we-are:hover {
+  background: #699db7;
 }
 
 /* Who We Are */
