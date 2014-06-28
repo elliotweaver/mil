@@ -4,16 +4,149 @@
    Author's custom styles
    ========================================================================== */
 
+/* General */
+body {
+  padding-top: 0px;
+  padding-bottom: 0;
+  font-family: helvetica-light, helvetica;
+}
+.c {
+  display: block;
+  height: 23px;
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+/* Top */
+.page-top {
+  background: #6cbdb7;
+  height: 31px;
+  text-align: right;
+}
+.page-top a {
+  color: #0c4a49;
+  line-height: 31px;
+}
+
+/* Nav */
 
 
+/* Hero */
+.page-hero {
+  background: #223e4c;
+  color: #FFF;
+  margin-bottom: 0;
+}
 
+/* Who We Are */
+.page-who {
+  background: #ffffff;
+}
+.page-who .c1 {
+  background: #cad8e3;
+}
+.page-who .c2 {
+  background: #e1ecf2;
+}
+.page-who h1 {
+  color: #51aca7;
+  text-align: center;
+}
+.page-who p {
+  color: #747474;
+  font-size: 16px;
+  line-height: 23px;
+}
 
+/* Quotes */
+.page-quotes {
+  background: #49b8b2;
+}
+.page-quotes .c1 {
+  background: #228580;
+}
+.page-quotes .c2 {
+  background: #24958f;
+}
+.page-quotes hr {
+  border-top: 1px dotted #fff;
+  border-bottom: 1px dotted #fff;
+  height: 5px;
+}
+.page-quotes .quote h1 {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+.page-quotes .quote p {
+  color: #093939;
+  font-size: 16px;
+  text-align: center;
+}
+.page-quotes .quote span {
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+}
+.page-quotes .quotes {
+  margin-bottom: 40px;
+}
+.page-quotes .quotes p {
+  background: #223e4c;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 16px;
+  min-height: 200px;
+}
+.page-quotes .quotes span {
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: block;
+}
 
+/* Contact */
+.page-contact {
+  background: #fff;
+}
+.page-contact .c1 {
+  background: #cad8e3;
+}
+.page-contact .c2 {
+  background: #e1ecf2;
+}
+.page-contact h1 {
+  color: #51aca7;
+  text-align: center;
+}
+.page-contact p {
+  color: #747474;
+  font-size: 16px;
+  line-height: 23px;
+}
+.page-contact a {
+  color: #43b8b2;
+}
+.page-contact a:hover {
+  color: #36827e;
+}
 
-
-
-
-
+/* Footer */
+.page-footer {
+  background: #262626;
+  min-height: 100px;
+  color: #808080;
+  text-align: center;
+}
+.page-footer p {
+  margin: 0;
+  line-height: 100px;
+}
+.page-footer span {
+  text-transform: uppercase;
+}
 
 
 
