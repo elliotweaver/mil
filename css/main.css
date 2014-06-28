@@ -140,6 +140,159 @@ body {
 /* Who */
 .page-what {
   background: #071a1e;
+  overflow: hidden;
+}
+.page-what .c1 {
+  background: #666;
+}
+.page-what .c2 {
+  background: #333;
+}
+.page-what .what {
+  width: 33.33%;
+  float: left;
+  height: 350px;
+  background: #888;
+  border: 1px solid #47545a;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.page-what h1 {
+  color: #51aca7;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.page-what .container p {
+  color: #FFF;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.page-what .text {
+  color: #fff;
+  line-height: 98px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 22px;
+}
+.page-what .what:hover {
+  background: #CCC;
+}
+.page-what .what:hover .text {
+  background: #fff;
+  color: #223e4c;
+}
+.page-what .what.promo .text {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  line-height: 40px;
+  padding: 90px 30px;
+}
+.page-what .pop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: -1000px;
+  z-index: 9999999999;
+  left: 0;
+  border: 4px solid #fff;
+  overflow: hidden;
+  visibility: hidden;
+}
+.page-what .pop .img {
+  width: 50%;
+  height: 100%;
+  display: block;
+  float: left;
+  background: url(../img/m1.jpg) no-repeat scroll center center #025565;
+  background-size: contain;
+}
+.page-what .pop .body {
+  background: #025565;
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding: 30px;
+}
+.page-what .pop .body h3 {
+  text-align: left;
+  color: #48b7b1;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.page-what .pop .body ul {
+  list-style-image: none;
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.page-what .pop .body ul li {
+  color: #fff;
+  font-size: 21px;
+  line-height: 32px;
+}
+.page-what .pop .close {
+  background: url(../img/close.png);
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 20px;
+  opacity: .7;
+  top: 20px;
+  cursor: pointer;
+}
+.page-what .pop .close:hover {
+  opacity: 1;
+}
+.page-what .pop .img img {
+  height: 100%;
+}
+.page-what .pop.active {
+  visibility: visible;
+}
+.page-what .what.caregiver .pop .body {
+  background: #025565;
+}
+.page-what .what.hha .pop .body {
+  background: #025565;
+}
+.page-what .what.cna .pop .body {
+  background: #012229;
+}
+.page-what .what.lvn .pop .body {
+  background: #09342b;
+}
+.page-what .what.rn .pop .body {
+  background: #0b2c33;
+}
+.page-what .what.promo .pop .body {
+  background: #441b15;
+}
+.page-what .what.caregiver .pop .img {
+  background: url(../img/m1.jpg) no-repeat scroll center center #025565;
+}
+.page-what .what.hha .pop .img {
+  background: url(../img/m1.jpg) no-repeat scroll center center #025565;
+}
+.page-what .what.cna .pop .img {
+  background: url(../img/m1.jpg) no-repeat scroll center center #012229;
+}
+.page-what .what.lvn .pop .img {
+  background: url(../img/m1.jpg) no-repeat scroll center center #09342b;
+}
+.page-what .what.rn .pop .img {
+  background: url(../img/m1.jpg) no-repeat scroll center center #0b2c33;
+}
+.page-what .what.promo .pop .img {
+  background: url(../img/m1.jpg) no-repeat scroll center center #441b15;
 }
 
 /* Quotes */
@@ -257,7 +410,19 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 1050px){
+  .page-what .text {
+    line-height: 70px;
+    font-size: 20px;
+  }
+}
 
+@media (max-width: 860px){
+  .page-what .text {
+    line-height: 70px;
+    font-size: 16px;
+  }
+}
 
 @media (max-width: 768px){
   .navbar-nav {
@@ -270,6 +435,15 @@ body {
   }
   .navbar img {
     width: 250px;
+  }
+  .page-what .what {
+    float: none;
+    width: 100%;
+    height: 230px;
+  }
+  .page-what .text {
+    line-height: 70px;
+    font-size: 18px;
   }
 }
 
