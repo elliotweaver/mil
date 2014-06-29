@@ -1,5 +1,10 @@
 (function($) {
 
+
+  $(document).ready(function(){
+    $.localScroll();
+  });
+
   $(".page-what .what").on('click', function(){
 
     var $pop = $(".pop", this);

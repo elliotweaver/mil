@@ -42,6 +42,10 @@ body {
 .navbar {
   margin-bottom: 0;
 }
+.navbar .the-nav {
+  opacity: .9;
+  background: #fff;
+}
 .navbar-nav>li>a {
   line-height: 72px;
   padding: 0 20px;
@@ -79,6 +83,7 @@ body {
   margin-bottom: 0;
   padding: 120px 0;
   background-size: cover;
+  margin-top: 30px;
 }
 .page-hero h1 {
   font-size: 45px;
@@ -206,6 +211,7 @@ body {
   border: 4px solid #fff;
   overflow: hidden;
   visibility: hidden;
+  cursor: default;
 }
 .page-what .pop .img {
   width: 50%;
@@ -239,6 +245,9 @@ body {
   color: #fff;
   font-size: 21px;
   line-height: 32px;
+  background: rgba(255,255,255,.1);
+  margin: 5px 0;
+  padding: 5px;
 }
 .page-what .pop .close {
   height: 60px;
