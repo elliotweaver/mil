@@ -104,6 +104,7 @@ body {
   padding: 12px 25px;
   border-radius: 4px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .page-hero a.get-in-touch:hover {
   background: #ee7f77;
@@ -115,6 +116,7 @@ body {
   padding: 12px 25px;
   border-radius: 4px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .page-hero a.who-we-are:hover {
   background: #699db7;
@@ -510,6 +512,12 @@ body {
 }
 .page-footer span {
   text-transform: uppercase;
+}
+
+.container-long {
+  overflow: hidden;
+  max-width: 1670px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1050px){
